@@ -1,5 +1,6 @@
 main {
   display: flex;
+  flex: 1;
   padding: 0;
   gap: 0;
 }
@@ -26,7 +27,7 @@ nav a {
   color: black;
   text-decoration: none;
   padding-right: 0.5rem;
-  font-size: 1.2em;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
@@ -35,7 +36,7 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 110px;
+  width: 8rem;
 }
 
 aside li {
@@ -65,13 +66,18 @@ aside ul {
 
 article {
   flex: 1;
-  padding: 0rem;
+  padding: 0.2rem;
   line-height: 1;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 .testimonial {
-  background-color: rgb(245, 238, 238);
+  background-color: rgb(210, 0, 0);
   margin: 1.5rem 0;
+  color: white;
 }
 
 h1 {
